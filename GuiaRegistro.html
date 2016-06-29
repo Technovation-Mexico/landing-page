@@ -24,45 +24,127 @@
     <!--Font awesome -->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
-
-        <title>Guia de Registro Technovation Challenge México</title>
-        <style type="text/css">
+   <style type="text/css">
 
       .technovation-logo-image {
         width: 140px;
       }
-
-    .android-wear-section {
-          position: relative;
-          background: url('images/todas.jpg') center top no-repeat;
-          background-size: cover;
-          height: 600px;
-        }
-
-     .demo-card-image.mdl-card {
-        width: 256px;
-        height: 256px;
-        background: url('images/image_card.jpg') center / cover;
+      .android-wear-section {
+       position: relative;
+      background: url('images/todas.jpg') center top no-repeat;
+      background-size: cover;
+      height: 600px;
       }
 
-    .demo-card-image{
+      .newsletter {
+      position: relative;
+      width: 100%;
+      background-color: #EF008B;
+      height: 110px;
+      }
+
+      .demo-card-image.mdl-card {
+      width: 256px;
+      height: 256px;
+      background: url('images/image_card.jpg') center / cover;
+      }
+
+      .demo-card-image{
       text-align: center;
-    }
-
-
-      .demo-card-image > .mdl-card__actions {
-        height: 52px;
-        padding: 16px;
-        background: rgba(0, 0, 0, 0.2);
       }
-      .demo-card-image__filename {
-        color: #fff;
+      .tech-video{
+      width:560px;
+      position:relative;
+      margin:auto;
       }
+      .sponsors1{
+        display: inline-table;
+        text-align:center;
+        width: 100%;
+      }
+      .sponsors2{
+        display: inline-table;
+        text-align:center;
+        width: 100%;
+      }
+      .oracle {
+        display:table-cell;
+        vertical-align: middle;
+        text-align: center;
+        padding: 10px;
+  	    width: 298px;
+  	    height: 133px;
+  	    /*background: url('images/logo-oracle.png') center / cover;*/
+  	  }
+        .intel {
+          display:table-cell;
+          vertical-align: middle;
+          text-align: center;
+          padding: 10px;
+    	    width: 298px;
+    	    height: 133px;
+    	    /*background: url('images/logo-intel.png') center / cover;*/
+    	  }
+        .biblioteca{
+          display:table-cell;
+          vertical-align: middle;
+          text-align: center;
+          width: 298px;
+          height: 100px;
 
-      .android-footer {
-          background-color: #424242;
-          position: relative;
         }
+        .ITESM{
+          display:table-cell;
+          vertical-align: middle;
+          text-align: center;
+          width: 298px;
+          height: 100px;
+        }
+        .ASFG{
+          display:table-cell;
+          vertical-align: middle;
+          text-align: center;
+          width: 150px;
+          height: 150px;
+        }
+	      .informador {
+        display: inline-block;
+  	    width: 500px;
+  	    height: 133px;
+  	    background: url('images/logo-informador.png')  no-repeat center;
+  	  }
+	      .reporter {
+        display: inline-block;
+  	    width: 500px;
+  	    height: 133px;
+  	    background: url('images/logo-guadalajarareprter.png')  no-repeat center;
+  	  }
+         .mural {
+          display: inline-block;
+          width: 500px;
+          height: 133px;
+          background: url('images/logo-Mural.png')  no-repeat center;
+        }
+           .wsj {
+          display: inline-block;
+          width: 500px;
+          height: 133px;
+          background: url('images/logo-WSJ.png')  no-repeat center;
+        }
+
+    	  .demo-card-image > .mdl-card__actions {
+    	    height: 52px;
+    	    padding: 16px;
+    	    background: rgba(0, 0, 0, 0.2);
+    	  }
+    	  .demo-card-image__filename {
+    	    color: #fff;
+    	  }
+
+    	  .android-footer {
+    		  background-color: #424242;
+    		  position: relative;
+    		}
 
       .android-customized-section-text {
            max-width: 1200px;
@@ -100,329 +182,383 @@
         </style>
     </head>
     <body>
+    
+    <!--Fixed Header -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+          <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+            <div class="mdl-layout__header-row header-row">
+              <span class="android-title mdl-layout-title">
+                <a href="index.html"><img class="technovation-logo-image" src="images/logo.png"></a>
+              </span>
+              <!-- Add spacer, to align navigation to the right in desktop -->
+              <div class="android-header-spacer mdl-layout-spacer"></div>
 
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
-        <div class="mdl-layout__header-row header-row">
-          <span class="android-title mdl-layout-title">
-            <a href="index.html"><img class="technovation-logo-image" src="images/logo.png"></a>
-          </span>
-          <!-- Add spacer, to align navigation to the right in desktop -->
-          <div class="android-header-spacer mdl-layout-spacer"></div>
-
-          <!-- Navigation -->
-          <div class="android-navigation-container">
-            <nav class="android-navigation mdl-navigation">
-              <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Participantes</a> -->
+              <!-- Navigation -->
+              <div class="android-navigation-container">
+                <nav class="android-navigation mdl-navigation">
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="recursos.html">Curriculum</a>
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://www.facebook.com/TechnovationChallengeMexico" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://twitter.com/Technovation_MX" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://plus.google.com/+TechnovationChallengeMX/posts" target="_blank"><i class="fa fa-google-plus fa-fw"></i></a>
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="http://www.technovationchallenge.org/" target="_blank">
+                    <img src="images/logo-technovationglobal.png"/>
+                  </a>
+                </nav>
+              </div>
+              <span class="android-mobile-title mdl-layout-title">
+                <img class="technovation-logo-image" src="images/logo.png">
+              </span>
+            </div>
+          </div>
+          
+          <div class="android-drawer mdl-layout__drawer">
+            <nav class="mdl-navigation">
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="recursos.html">Curriculum</a>
-              <!--<a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Acerca</a> -->
-              <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Contacto</a> -->
+              <div class="android-drawer-separator"></div>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://www.facebook.com/TechnovationChallengeMexico" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://twitter.com/Technovation_MX" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://plus.google.com/+TechnovationChallengeMX/posts" target="_blank"><i class="fa fa-google-plus fa-fw"></i></a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="http://www.technovationchallenge.org/" target="_blank">
-                <img src="images/logo-technovationglobal.png"/>
-              </a>
+                    <img src="images/logo-technovationglobal.png"/>
+                  </a>
             </nav>
           </div>
-          <span class="android-mobile-title mdl-layout-title">
-            <img class="technovation-logo-image" src="images/logo.png">
-          </span>
+          
+          <div class="android-content mdl-layout__content">
+            <a name="top"></a>
+          </div>
+    </div>
+    <!--Fixed Header END -->
+    <div class="android-more-section">
+      <div class="android-section-title mdl-typography--font-light mdl-typography--display-1-color-contrast">
+        Guía de registro para alumnas que quieren participar en Technovation Challenge.
+      </div>
+      
+      <div class="tech-video" >
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1AfCZnn7y2A" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="tech-video" >
+        <div class="lgray" mim-width="400px">
+          <ul>
+          <li><a href="#reg">Registro para participar en Technovation Challenge 2016</a></li>
+          <ul>
+            <li><a href="#signup">Traducción de "Sign Up"</a></li>
+          </ul>
+            <li><a href="#tareas">Tareas para completar el registro</a></li>
+          <ul>
+              <li><a href="#editprofile">Traducción de “Edit Profile” formulario donde subes tu foto y nos platicas tus intereses</a></li>
+              <li><a href="#equipo">Guía del formulario  “Crear Equipo”</a></li>
+              <li><a href="#ecuesta">Traducción de la Encuesta Estudiantil</a></li>
+          </ul>
+          </ul>
+        </div>       
+        <div class="higlight">
+            <p>(Si se te complica seguir la guía ¡no dejes de registrarte! Contáctanos en technovation.mexico@gmail.com)
         </div>
       </div>
-      <div class="android-drawer mdl-layout__drawer">
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Participantes</a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Curriculum</a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Acerca</a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Contacto</a>
-          <div class="android-drawer-separator"></div>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://www.facebook.com/TechnovationChallengeMexico" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://twitter.com/Technovation_MX" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://plus.google.com/+TechnovationChallengeMX/posts" target="_blank"><i class="fa fa-google-plus fa-fw"></i></a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="http://www.technovationchallenge.org/" target="_blank">
-                <img src="images/logo-technovationglobal.png"/>
-              </a>
-        </nav>
+
+      <div class="tech-video" >
+        <a name="reg"></a>
+        <h2>Registro para participar en Technovation Challenge 2016</h2>
+        <p>Si participaste en Technovation Challenge en 2015, ingresa con tu cuenta en  <a href="https://my.technovationchallenge.org">https://my.technovationchallenge.org</a> e indica que quieres participar otra vez.
+
+        <p>Si es tu primera vez, crea una cuenta nueva en <a href="https://my.technovationchallenge.org/users/sign_up">https://my.technovationchallenge.org/users/sign_up </a>.
+        <p>Da click en el botón <span class="bt">Student</span> y llena el formulario. Consulta la traducción abajo si no sabes ingles.          
       </div>
 
+      <div class="tech-video">
+        <div class="lgray">
+          <h3 ><a name="signup"></a><span class="c0">Sign Up         </span><span class="c14 c7">Registro</span></h3>
+          <p  ><span class="c0">Email        </span><span class="c5 c7">Correo electr&oacute;nico</span><span class="c0">        </span></p>
+          <p  ><span class="c0">Password        </span><span class="c5 c7">Contrase&ntilde;a</span></p>
+          <p  ><span class="c8">Must be at least 8 characters long   </span><span class="c5">Debe ser de por lo menos 8 caracteres de longitud</span></p>
+          <p  ><span class="c0">Password confirmation        </span><span class="c5 c7">Confirmaci&oacute;n de contrase&ntilde;a</span></p>
+          <hr>
+          <p><span class="c2"></span></p>
+          <h3 ><a name="h.af30nd25f22q"></a><span class="c0">Your Information        </span><span class="c14 c7">Informaci&oacute;n Personal</span></h3>
+          <p  ><span class="c0">First name                </span><span class="c5 c7">Nombres</span></p>
+          <p  ><span class="c0">Last name                </span><span class="c5 c7">Apellidos</span></p>
+          <p  ><span class="c0">Birthday                </span><span class="c5 c7">Fecha de nacimiento</span></p>
+          <p  ><span class="c0">City                        </span><span class="c5 c7">Ciudad</span></p>
+          <p  ><span class="c0">State or province        </span><span class="c5 c7">Estado</span> <span class="c5">(Escribe el nombre completo de tu estado -- por el momento no est&aacute;n en las lista los estados mexicanos)</span></p>
+          <p  ><span class="c0">Country                </span><span class="c5 c7">Pa&iacute;s </span><span class="c5">(Escoja M&eacute;xico :-) )</span></p>
+          <p  ><span class="c0">Postal code        </span><span class="c5 c7">Codigo Postal</span></p>
+          <hr>
+          <p  ><span class="c0">Student Information        </span><span class="c7 c14">Informaci&oacute;n Escolar</span></p>
+          <p  ><span class="c0">School        </span><span class="c5 c7">Escuela</span></p>
+          <p  ><span class="c0">Grade        </span><span class="c5 c7">Grado</span></p>
+          <hr>
+          <p ><span class="c2"></span></p>
+          <h3 ><a name="h.10m4dwft6fzd"></a><span class="c0">Parent or Guardian Information  </span><span class="c14 c7">Informaci&oacute;n de</span><span class="c0"> </span><span class="c14 c7">padre o Tutor</span></h3>
+          <p><span class="c2">You will need your parent or guardian&#39;s consent to participate in Technovation. Please enter his/her information here, and we will email the consent form to your parent for electronic signature.</span></p>
+          <p><span class="c5">Necesitar&aacute;s el consentimiento del un padre o tutor para participar en Technovation. Por favor, </span><span class="c5">introduzca</span><span class="c5"> su  informaci&oacute;n aqu&iacute;. Vamos a enviarle el formulario de consentimiento por correo electr&oacute;nico a tu padre o tutor para que firme electr&oacute;nicamente.</span></p>
+          <p  ><span class="c0">Parent first name        </span><span class="c5 c7">Nombre de un padre o tutor</span></p>
+          <p  ><span class="c0">Parent last name        </span><span class="c5 c7">Apellidos del padre o tutor </span></p>
+          <p  ><span class="c0">Parent phone        </span><span class="c5 c7">N&uacute;mero de tel&eacute;fono del padre o tutor </span></p>
+          <p  ><span class="c8">Please include area code        </span><span class="c5">Por favor incluye el c&oacute;digo del pa&iacute;s y &aacute;rea. (El c&oacute;digo de M&eacute;xico es +52) </span></p>
+          <p  ><span class="c0">Parent email        </span><span class="c5 c7">Correo electr&oacute;nico del padre o tutor </span></p>
+          <hr>
+          <p><span class="c2"></span></p>
+          <h3 ><a name="h.ti7f3w947x4g"></a><span class="c0">How did you hear about us?  </span><span class="c14 c7">&iquest;C&oacute;mo te enteraste de nosotros?</span></h3>
+          <p  ><span class="c0">Source        </span><span class="c5 c7">C&oacute;mo</span></p>
+          <p><span class="c10"> Friend </span><span class="c3">Amigo, </span><span class="c10"> Colleague </span><span class="c3">Compa&ntilde;ero, </span><span class="c10"> Article </span><span class="c3">Art&iacute;culo,</span><span class="c10"> Internet </span><span class="c3">Internet,</span><span class="c10"> Social media </span><span class="c3">Medios sociales</span><span class="c10">,  Print </span><span class="c3">Letrero, </span><span class="c10">Web search </span><span class="c3">Buscando en Internet,</span><span class="c10"> Teacher </span><span class="c3">Maestro,</span><span class="c10"> Parent </span><span class="c3"> Padre,</span><span class="c10"> family </span><span class="c3">familia,</span><span class="c10"> Other </span><span class="c3">Otro.</span></p>
+          <p  ><span class="c0">Please Specify  </span><span class="c5 c7">Especifica por favor</span></p>
+          <p  ><span class="c8">Was there a specific person or article?  </span><span class="c5">&iquest;Una persona o articulo especifico?</span></p>
+          <p  ><span class="c15">Da click en el bot&oacute;n </span><span class="c7 c15">Sign up.</span></p>
+        </div>
+      </div>
 
+      <div class="tech-video">
+        <a name="tareas"></a>
+        <h2>Tareas para completar el registro.</h2>
+        <p>Al registrarte vas a ver el Dashboard que indica que te falta hacer. <span class="higlight">Lo más importante es confirmar tu correo, registrar tu equipo e indicar cuándo se pueden reunir con la mentora, para que puedan ser seleccionadas por alguna mentora.</span> Las demás tareas pueden completarse después, incluso con ayuda de su mentora.
 
+        <p>You are now registered for the 2016 Technovation season!
+        <p>Estas registrado para la temporada 2016 de Technovation!
+        <h3>Dashboard</h3>
+        <ul class="c7 sp1">
+        <li>Please confirm your email address by clicking the link sent to tucorreo@algunmail.com. <span class="lb"> Need it resent</span>?
+        <li><span class="c5">Por favor confirma tu correo electrónico dando clic en la liga que hemos mandado a tucorreo@algunmail.com. ¿Necesitas re-enviarla?</span>
+        <li>You haven't uploaded an picture. <span class="lb">Upload one now</span>.
+        <li><span class="c5">Aún no has subido tu foto. Súbela ahora.</span>
+        <li>You haven't given yourself a brief description. <span class="lb">Write one now</span>.
+        <li><span class="c5">Aún no has escrito un breve descripción de ti mismo.  Escríbela ahora.</span>
+        <li>If you haven't already, please complete the following <span class="lb">student pre-program survey</span>.
+        <li><span class="c5">Si no lo has hecho, completa la encuesta estudiantil.</span>
+        <li>You are registered as an individual but not as part of a team yet. In order to be fully registered for Technovation 2016, you must be attached to a team (even if you plan on participating by yourself, in which case you would be a team of 1 student). You may <span class="lb higlight">create a team</span> or <span class="lb higlight">request to join an existing team</span>.
+        <li><span class="c5">Estas registrado como un individuo pero no como parte de un equipo. Para cumplir tu registro en Technovation 2016, tienes que ser parte de un equipo (si planeas trabajar solo, tendrás un equipo de solo 1 alumna). Puedes <span class="higlight">crear un equipo </span> o <span class="higlight">pedir unirte a un equipo registrado.</span></span>
+        </ul>
+      </div>
 
+      <div class="tech-video">
+        <div class="lgray">
+          <a name="editprofile"></a>
+          <h2>Edit Profile    <span class="c5">Edita Perfil</span></h2>
+          <p><span class="c7">If you need to edit your email or password, please click</span> <span class="c7 lb">here instead</span>.
+          <p><span class="c7 c5">Si necesitas cambiar tu correo electrónico o contraseña, por favor da click aquí.</span>
 
-        <div class="main">
-            <h1>Guía de registro para alumnas que quieren participar en Technovation Challenge.</h1>
+          <p><span class="c7">Upload a photo</span><span class="c7 c5">  Sube tu foto</span>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1AfCZnn7y2A" frameborder="0" allowfullscreen></iframe>
+          <p><span class="c7">About</span><span class="c7 c5">   Acerca de</span>
+          <p>Give a brief description about yourself or your background. You may use markdown to format your description
+          <p><span class="c5">Platicanos un poco de tus intereses y conocimientos.</span>
 
-            <div class="lgray" max-width="400px">
-                <ul>
-                    <li><a href="#reg">Registro para participar en Technovation Challenge 2016</a></li>
-                    <ul>
-                        <li><a href="#signup">Traducción de "Sign Up"</a></li>
-                    </ul>
-                    <li><a href="#tareas">Tareas para completar el registro</a></li>
-                    <ul>
-                        <li><a href="#editprofile">Traducción de “Edit Profile” formulario donde subes tu foto y nos platicas tus intereses</a></li>
-                        <li><a href="#equipo">Guía del formulario  “Crear Equipo”</a></li>
-                        <li><a href="#ecuesta">Traducción de la Encuesta Estudiantil</a></li>
-                    </ul>
-                </ul>
-            </div>
+          <p><span class="c7">City  </span><span class="c7 c5">  Ciudad</span>
+          <p><span class="c7">State or province </span><span class="c7 c5">  Estado</span>
+          <p><span class="c5">teclea el nombre de tu estado en México.</span>
+          <p><span class="c7">Country </span><span class="c7 c5">País</span>
+          <p><span class="c7">Postal code</span><span class="c7 c5"> Código Postal</span>
 
-            <div class="higlight">
-                <p>(Si se te complica seguir la guía ¡no dejes de registrarte! Contáctanos en technovation.mexico@gmail.com)
-            </div>
+          <p><span class="c7">School </span><span class="c7 c5"> Escuela</span>
+          <p><span class="c7">Grade </span><span class="c7 c5">  Grado</span>
+        </div>
+      </div>
 
-            <div class="s1">
-                <a name="reg"></a>
-                <h2>Registro para participar en Technovation Challenge 2016</h2>
-                <p>Si participaste en Technovation Challenge en 2015, ingresa con tu cuenta en  <a href="https://my.technovationchallenge.org">https://my.technovationchallenge.org</a> e indica que quieres participar otra vez.
-
-                <p>Si es tu primera vez, crea una cuenta nueva en <a href="https://my.technovationchallenge.org/users/sign_up">https://my.technovationchallenge.org/users/sign_up </a>.
-                <p>Da click en el botón <span class="bt">Student</span> y llena el formulario. Consulta la traducción abajo si no sabes ingles.
-            </div>
-            <div class="lgray">
-<h3 ><a name="signup"></a><span class="c0">Sign Up         </span><span class="c14 c7">Registro</span></h3><p  ><span class="c0">Email        </span><span class="c5 c7">Correo electr&oacute;nico</span><span class="c0">        </span></p><p  ><span class="c0">Password        </span><span class="c5 c7">Contrase&ntilde;a</span></p><p  ><span class="c8">Must be at least 8 characters long   </span><span class="c5">Debe ser de por lo menos 8 caracteres de longitud</span></p><p  ><span class="c0">Password confirmation        </span><span class="c5 c7">Confirmaci&oacute;n de contrase&ntilde;a</span></p><hr><p><span class="c2"></span></p><h3 ><a name="h.af30nd25f22q"></a><span class="c0">Your Information        </span><span class="c14 c7">Informaci&oacute;n Personal</span></h3><p  ><span class="c0">First name                </span><span class="c5 c7">Nombres</span></p><p  ><span class="c0">Last name                </span><span class="c5 c7">Apellidos</span></p><p  ><span class="c0">Birthday                </span><span class="c5 c7">Fecha de nacimiento</span></p><p  ><span class="c0">City                        </span><span class="c5 c7">Ciudad</span></p><p  ><span class="c0">State or province        </span><span class="c5 c7">Estado</span> <span class="c5">(Escribe el nombre completo de tu estado -- por el momento no est&aacute;n en las lista los estados mexicanos)</span></p><p  ><span class="c0">Country                </span><span class="c5 c7">Pa&iacute;s </span><span class="c5">(Escoja M&eacute;xico :-) )</span></p><p  ><span class="c0">Postal code        </span><span class="c5 c7">Codigo Postal</span></p><hr><p  ><span class="c0">Student Information        </span><span class="c7 c14">Informaci&oacute;n Escolar</span></p><p  ><span class="c0">School        </span><span class="c5 c7">Escuela</span></p><p  ><span class="c0">Grade        </span><span class="c5 c7">Grado</span></p><hr><p ><span class="c2"></span></p><h3 ><a name="h.10m4dwft6fzd"></a><span class="c0">Parent or Guardian Information  </span><span class="c14 c7">Informaci&oacute;n de</span><span class="c0"> </span><span class="c14 c7">padre o Tutor</span></h3><p><span class="c2">You will need your parent or guardian&#39;s consent to participate in Technovation. Please enter his/her information here, and we will email the consent form to your parent for electronic signature.</span></p><p><span class="c5">Necesitar&aacute;s el consentimiento del un padre o tutor para participar en Technovation. Por favor, </span><span class="c5">introduzca</span><span class="c5"> su  informaci&oacute;n aqu&iacute;. Vamos a enviarle el formulario de consentimiento por correo electr&oacute;nico a tu padre o tutor para que firme electr&oacute;nicamente.</span></p><p  ><span class="c0">Parent first name        </span><span class="c5 c7">Nombre de un padre o tutor</span></p><p  ><span class="c0">Parent last name        </span><span class="c5 c7">Apellidos del padre o tutor </span></p><p  ><span class="c0">Parent phone        </span><span class="c5 c7">N&uacute;mero de tel&eacute;fono del padre o tutor </span></p><p  ><span class="c8">Please include area code        </span><span class="c5">Por favor incluye el c&oacute;digo del pa&iacute;s y &aacute;rea. (El c&oacute;digo de M&eacute;xico es +52) </span></p><p  ><span class="c0">Parent email        </span><span class="c5 c7">Correo electr&oacute;nico del padre o tutor </span></p><hr><p><span class="c2"></span></p><h3 ><a name="h.ti7f3w947x4g"></a><span class="c0">How did you hear about us?  </span><span class="c14 c7">&iquest;C&oacute;mo te enteraste de nosotros?</span></h3><p  ><span class="c0">Source        </span><span class="c5 c7">C&oacute;mo</span></p><p><span class="c10"> Friend </span><span class="c3">Amigo, </span><span class="c10"> Colleague </span><span class="c3">Compa&ntilde;ero, </span><span class="c10"> Article </span><span class="c3">Art&iacute;culo,</span><span class="c10"> Internet </span><span class="c3">Internet,</span><span class="c10"> Social media </span><span class="c3">Medios sociales</span><span class="c10">,  Print </span><span class="c3">Letrero, </span><span class="c10">Web search </span><span class="c3">Buscando en Internet,</span><span class="c10"> Teacher </span><span class="c3">Maestro,</span><span class="c10"> Parent </span><span class="c3"> Padre,</span><span class="c10"> family </span><span class="c3">familia,</span><span class="c10"> Other </span><span class="c3">Otro.</span></p><p  ><span class="c0">Please Specify  </span><span class="c5 c7">Especifica por favor</span></p><p  ><span class="c8">Was there a specific person or article?  </span><span class="c5">&iquest;Una persona o articulo especifico?</span></p><p  ><span class="c15">Da click en el bot&oacute;n </span><span class="c7 c15">Sign up.</span></p>
-</div>
-
-    <div>
-<a name="tareas"></a>
-<h2>Tareas para completar el registro.</h2>
-<p>Al registrarte vas a ver el Dashboard que indica que te falta hacer. <span class="higlight">Lo más importante es confirmar tu correo, registrar tu equipo e indicar cuándo se pueden reunir con la mentora, para que puedan ser seleccionadas por alguna mentora.</span> Las demás tareas pueden completarse después, incluso con ayuda de su mentora.
-
-<p>You are now registered for the 2016 Technovation season!
-<p>Estas registrado para la temporada 2016 de Technovation!
-<h3>Dashboard</h3>
-<ul class="c7 sp1">
-<li>Please confirm your email address by clicking the link sent to tucorreo@algunmail.com. <span class="lb"> Need it resent</span>?
-<li><span class="c5">Por favor confirma tu correo electrónico dando clic en la liga que hemos mandado a tucorreo@algunmail.com. ¿Necesitas re-enviarla?</span>
-<li>You haven't uploaded an picture. <span class="lb">Upload one now</span>.
-<li><span class="c5">Aún no has subido tu foto. Súbela ahora.</span>
-<li>You haven't given yourself a brief description. <span class="lb">Write one now</span>.
-<li><span class="c5">Aún no has escrito un breve descripción de ti mismo.  Escríbela ahora.</span>
-<li>If you haven't already, please complete the following <span class="lb">student pre-program survey</span>.
-<li><span class="c5">Si no lo has hecho, completa la encuesta estudiantil.</span>
-<li>You are registered as an individual but not as part of a team yet. In order to be fully registered for Technovation 2016, you must be attached to a team (even if you plan on participating by yourself, in which case you would be a team of 1 student). You may <span class="lb higlight">create a team</span> or <span class="lb higlight">request to join an existing team</span>.
-<li><span class="c5">Estas registrado como un individuo pero no como parte de un equipo. Para cumplir tu registro en Technovation 2016, tienes que ser parte de un equipo (si planeas trabajar solo, tendrás un equipo de solo 1 alumna). Puedes <span class="higlight">crear un equipo </span> o <span class="higlight">pedir unirte a un equipo registrado.</span></span>
-</ul>
-    </div>
-
-    <div class="lgray">
-        <a name="editprofile"></a>
-<h2>Edit Profile    <span class="c5">Edita Perfil</span></h2>
-<p><span class="c7">If you need to edit your email or password, please click</span> <span class="c7 lb">here instead</span>.
-<p><span class="c7 c5">Si necesitas cambiar tu correo electrónico o contraseña, por favor da click aquí.</span>
-
-<p><span class="c7">Upload a photo</span><span class="c7 c5">  Sube tu foto</span>
-
-<p><span class="c7">About</span><span class="c7 c5">   Acerca de</span>
-<p>Give a brief description about yourself or your background. You may use markdown to format your description
-<p><span class="c5">Platicanos un poco de tus intereses y conocimientos.</span>
-
-<p><span class="c7">City  </span><span class="c7 c5">  Ciudad</span>
-<p><span class="c7">State or province </span><span class="c7 c5">  Estado</span>
-<p><span class="c5">teclea el nombre de tu estado en México.</span>
-<p><span class="c7">Country </span><span class="c7 c5">País</span>
-<p><span class="c7">Postal code</span><span class="c7 c5"> Código Postal</span>
-
-<p><span class="c7">School </span><span class="c7 c5"> Escuela</span>
-<p><span class="c7">Grade </span><span class="c7 c5">  Grado</span>
-</div>
-
-    <div>
+      <div class="tech-video">
         <a name="equipo"></a>
         <h2>Guía del formulario  “Crear Equipo”</h2>
+        Solo un integrante del equipo debe crear el Equipo, los demás integrantes se unen a ese equipo. <span class="higlight"> Es importante especificar los horarios y la zona donde su equipo puede reunirse con su mentora.  Es importante estar al pendiente de los mensajes de una mentora potencial y para aprobar todos los integrantes del equipo</span>.
+      </div>
 
-Solo un integrante del equipo debe crear el Equipo, los demás integrantes se unen a ese equipo. <span class="higlight"> Es importante especificar los horarios y la zona donde su equipo puede reunirse con su mentora.  Es importante estar al pendiente de los mensajes de una mentora potencial y para aprobar todos los integrantes del equipo</span>.
-</div>
- <div class="lgray">
-<h3>Create Team <span class="c5">Crear Equipo</span></h3>
+      <div class="tech-video">
+        <div class="lgray">
+          <h3>Create Team <span class="c5">Crear Equipo</span></h3>
 
-<p><span class="c7">Name  </span><span class="c7 c5">  Nombre</span>
-<p><span class="c7">Region</span><span class="c7 c5">  Región</span>
-<p><span class="c5">Si alguien en tu equipo es Mayor de 14 selecciona:</span> High School - Mexico/Central America/South America
-<p><span class="c5">Si todos en tu equipo tienen 14 años o menos selecciona:</span> Middle School - Mexico/Central America/South America/Africa
+          <p><span class="c7">Name  </span><span class="c7 c5">  Nombre</span>
+          <p><span class="c7">Region</span><span class="c7 c5">  Región</span>
+          <p><span class="c5">Si alguien en tu equipo es Mayor de 14 selecciona:</span> High School - Mexico/Central America/South America
+          <p><span class="c5">Si todos en tu equipo tienen 14 años o menos selecciona:</span> Middle School - Mexico/Central America/South America/Africa
 
-<p><span class="c7">Team Photo </span><span class="c7 c5"> Foto de Equipo</span>
-<p><span class="c5">La suben después de su primera junta.</span>
-<p>Images will be rescaled to 300x300 <br><span class="c5">Las imágenes se van a cambiar a 300X300 pixeles.</span>
+          <p><span class="c7">Team Photo </span><span class="c7 c5"> Foto de Equipo</span>
+          <p><span class="c5">La suben después de su primera junta.</span>
+          <p>Images will be rescaled to 300x300 <br><span class="c5">Las imágenes se van a cambiar a 300X300 pixeles.</span>
 
-<p><span class="c7">Team Bio  </span><span class="c7 c5">  Acerca del Equipo</span>
-<p><span class="c5"><em>En ese espacio indica cuándo y dónde (en qué zona ) se puede reunir su equipo con la mentora (2 horas por semana desde enero hasta finales de abril), y cuándo el equipo va a trabajar solo (2 horas por semana desde enero hasta finales de abril)  Usa el formato de este Ejemplo:</em>
-<p><span class="ppl">“Juntas con mentora: Los Martes 19:00-21:00 O Los Sábados 9:00-11:00.  Zona:  cerca de Plaza Del Sol.
-<br>Juntas del equipo solo: Los Jueves: 15:00-17:00 en la sala de computo en nuestra escuela.
+          <p><span class="c7">Team Bio  </span><span class="c7 c5">  Acerca del Equipo</span>
+          <p><span class="c5"><em>En ese espacio indica cuándo y dónde (en qué zona ) se puede reunir su equipo con la mentora (2 horas por semana desde enero hasta finales de abril), y cuándo el equipo va a trabajar solo (2 horas por semana desde enero hasta finales de abril)  Usa el formato de este Ejemplo:</em>
+          <p><span class="ppl">“Juntas con mentora: Los Martes 19:00-21:00 O Los Sábados 9:00-11:00.  Zona:  cerca de Plaza Del Sol.
+          <br>Juntas del equipo solo: Los Jueves: 15:00-17:00 en la sala de computo en nuestra escuela.
 
-<br>Somos 5 chicas de secundaria 45. Somos amigas y estamos emocionadas a trabajar juntas. Queremos hacer una app que …..    “</span>
+          <br>Somos 5 chicas de secundaria 45. Somos amigas y estamos emocionadas a trabajar juntas. Queremos hacer una app que …..    “</span>
 
-<p><span class="c5">También platícanos acerca del Equipo y sus intereses.</span>
+          <p><span class="c5">También platícanos acerca del Equipo y sus intereses.</span>
 
-<p>How did you meet? Is this your first experience in programming? You may use <span class="lb">markdown</span> to format your team description.
-<br><span class="c5">¿Cómo se conocieron? ¿Es su primera experiencia con programación? Puedes usar markdown para dar formato a su descripción.</span>
-    </div>
+          <p>How did you meet? Is this your first experience in programming? You may use <span class="lb">markdown</span> to format your team description.
+          <br><span class="c5">¿Cómo se conocieron? ¿Es su primera experiencia con programación? Puedes usar markdown para dar formato a su descripción.</span>
+        </div>
+      </div>
 
-<div>
-      <a name="ecuesta"></a>
-      <h2>Traducción de la Encuesta Estudiantil</h2>
-</div>
-<div class="lgray">
-<p>Thank you for taking a few minutes to fill out the Technovation Student Pre-Program Survey. Your response is confidential and will not be shared with any outside organization. Your feedback will help provide Technovation and its parent non-profit organization, Iridescent, with important information about the impact of the program on its participants. Please complete this survey before you start working on the curriculum.
-<p><span class="c5">Gracias por tomar tu tiempo para llenar la Encuesta Estudiantil Pre-Participación.  Tus respuestas son confidenciales y no las compartiremos con ninguna organización foránea.  Tu retroalimentación da información acerca del cómo el programa impacta a los participantes.  Por favor llena la encuesta antes de empezar con el currículo.</span>
-<p><span class="c7">*1. Please tell us about yourself.  </span><span class="c7 c5">    Platícanos acerca de ti.</span>
-<p>First and Last Name:       <span class="c5"> Nombre y Apellido:</span>
-<br>School Name:       <span class="c5">  Nombre de Escuela:</span>
-<br>City/Town:    <span class="c5">   Ciudad/Pueblo:</span>
-<br>State:     <span class="c5">  Estado:</span>
-<br>ZIP:       <span class="c5">  Código Postal:</span>
-<br>Country:   <span class="c5">  País:</span>
-<br>Email Address: <span class="c5">  Correo Electrónico:</span>
-<br>Phone Number:  <span class="c5">  Número de Teléfono:</span>
-<hr>
-<p><span class="c7">*2. Do you use any of these websites regularly? (Please check all that apply) </span><span class="c7 c5">  ¿Usas algunos de estos sitios regularmente? (Por favor marca todos que usas)</span>
-<p>Facebook  <br>  Twitter   <br>  Tumblr    <br>  LinkedIn  <br>  None <span class="c5">Ninguno</span>
-<br>Other (please specify)  <span class="c5">Otro (especifica cual)</span>
-<hr>
-<p><span class="c7">*3. Which of these do you use on a regular basis? (Please check all that apply)</span><span class="c7 c5"> ¿Cuáles de los siguientes usas regularmente? (Especifica todos los que apliquen)</span>
-<p>Computer/laptop <span class="c5">Computadora/Laptop</span>
-<br>Phone applications     <span class="c5"> Aplicaciones móviles</span>
-<br>Microsoft office or similar software      <span class="c5">  Microsoft office o software similar</span>
-<br>Google docs     <span class="c5">Google docs</span>
-<br>None      <span class="c5">  Ninguno</span>
-<br>Other (please specify) <span class="c5"> Otro (especifica por favor)</span>
-<hr>
-<p><span class="c7">*4. Which of these language have you programmed with before? (Please check all that apply) </span><span class="c7 c5"> ¿Cuáles de los siguientes lenguajes de programación has usado antes? (Marca todos los que apliquen)</span>
-<p>Javascript <br> Python  <br>    C++<br> HTML  <br>  App Inventor  <br>  Swift  <br> None   <span class="c5"> Ninguno</span> <br> Other (please specify)  <span class="c5">Otro (Por favor especifica)</span>
-<hr>
-<p><span class="c7">*5. Have you participated in the Technovation Challenge before? If so, which year(s)? (Please check all that apply)  </span><span class="c7 c5">   ¿Has participado antes en Technovation Challenge? (Marca todos los años por favor)</span>
-<p>No. This is my first year. <span class="c5">  No. Es mi primer año.</span>
-<hr>
-<p><span class="c7">*6. Please indicate your feelings about each statement. </span><span class="c7 c5"> Por favor indicia cómo te sientes acerca de cada frase.</span>
-<table>
-    <tr><td>Strongly Disagree</td><td>Disagree</td><td>Not Sure</td><td>Agree</td><td>Strongly Agree</td></tr>
-    <tr class="c5"><td>No estoy de acuerda para nada</td><td>No estoy de acuerdo</td><td>No estoy segura</td><td>De acuerdo</td><td>Totalmente de acuerdo</td></tr>
+      <div class="tech-video">
+        <a name="ecuesta"></a>
+        <h2>Traducción de la Encuesta Estudiantil</h2>
+      </div>
 
-</table>
-<div class="tan">
-<p><span class="tan">I am a hard worker.
-<span class="c5">Trabajo duro.</span>
-</div>
-<p>I know what computer scientists/engineers do.
-<span class="c5">Sé que hacen los ingenieros en sistemas.
-<div class="tan">
-<p><span class="tan">I am diligent (hard working and careful) in my work.
-<span class="c5">Soy perseverante en mi trabajo (trabajo duro y con cuidado)</span></span>
-</div>
-<p>I know how technology products are marketed.
-<span class="c5">Sé cómo son comercializados los productos tecnológicos.</span>
-<div class="tan">
-<p><span class="tan">I often set a goal but later choose to follow a different one.
-<span class="c5">Frecuentemente elijo una meta pero después la cambio por una distinta.</span></span>
-</div>
-<p>I know about user interface design.
-<span class="c5">Sé sobre diseño de interfaces de usuario.</span>
-<div class="tan">
-<p><span class="tan">I know how to write computer programs.
-<span class="c5">Sé cómo escribir programas de computadora.</span></span>
-</div>
-<p> I know about the design process that computer engineers use to create products.
-<span class="c5">Sé acerca del proceso de diseño que ingenieros en sistemas usan para crear productos.</span>
-<div class="tan">
-<p><span class="tan">Setbacks and obstacles don't discourage me.
-<span class="c5">Los contratiempos u obstáculos no me desalientan.</span></span>
-</div>
-<p>I finish whatever I begin.
-<span class="c5">Concluyo todo lo que empiezo.</span>
-<div class="tan">
-<p><span class="tan">I am interested in helping to choose a technology company to visit.
-<span class="c5">Estoy interesada en apoyar en la selección de una empresa de tecnología a visitar.</span></span>
-</div>
-<p>I am confident using technology.
-<span class="c5">Me siento cómoda usando tecnología</span>
-<div class="tan">
-<p><span class="tan">I am comfortable making presentations about my school projects.
-<span class="c5">Me siento cómoda haciendo presentaciones sobre mis proyectos escolares</span></span>
-</div>
-<p>I am taking or plan to take advanced classes in math or science.
-<span class="c5">Estoy tomado o voy a tomar clases avanzadas de matemática o ciencia.</span>
-<div class="tan">
-<p><span class="tan">I know what a business plan is.
-<span class="c5">Yo sé que es un plan de negocio.</span></span>
-</div>
-<p>I am interested in starting my own technology company.
-<span class="c5">Me gustaría empezar mi propia empresa de tecnología.</span>
-<div class="tan">
-<p><span class="tan">I would like to choose a problem to solve with technology
-<span class="c5">Me gustaría escoger un problema para resolver con tecnología</span></span>
-</div>
-<p>I am considering a career in technology.
-<span class="c5">Estoy considerando una carrera en tecnología.</span>
+      <div class="tech-video">
+        <div class="lgray">
+          <p>Thank you for taking a few minutes to fill out the Technovation Student Pre-Program Survey. Your response is confidential and will not be shared with any outside organization. Your feedback will help provide Technovation and its parent non-profit organization, Iridescent, with important information about the impact of the program on its participants. Please complete this survey before you start working on the curriculum.
+          <p><span class="c5">Gracias por tomar tu tiempo para llenar la Encuesta Estudiantil Pre-Participación.  Tus respuestas son confidenciales y no las compartiremos con ninguna organización foránea.  Tu retroalimentación da información acerca del cómo el programa impacta a los participantes.  Por favor llena la encuesta antes de empezar con el currículo.</span>
+          <p><span class="c7">*1. Please tell us about yourself.  </span><span class="c7 c5">    Platícanos acerca de ti.</span>
+          <p>First and Last Name:       <span class="c5"> Nombre y Apellido:</span>
+            <br>School Name:       <span class="c5">  Nombre de Escuela:</span>
+            <br>City/Town:    <span class="c5">   Ciudad/Pueblo:</span>
+            <br>State:     <span class="c5">  Estado:</span>
+            <br>ZIP:       <span class="c5">  Código Postal:</span>
+            <br>Country:   <span class="c5">  País:</span>
+            <br>Email Address: <span class="c5">  Correo Electrónico:</span>
+            <br>Phone Number:  <span class="c5">  Número de Teléfono:</span>
+          <hr>
+          <p><span class="c7">*2. Do you use any of these websites regularly? (Please check all that apply) </span><span class="c7 c5">  ¿Usas algunos de estos sitios regularmente? (Por favor marca todos que usas)</span>
+          <p>Facebook  <br>  Twitter   <br>  Tumblr    <br>  LinkedIn  <br>  None <span class="c5">Ninguno</span>
+            <br>Other (please specify)  <span class="c5">Otro (especifica cual)</span>
+          <hr>
+          <p><span class="c7">*3. Which of these do you use on a regular basis? (Please check all that apply)</span><span class="c7 c5"> ¿Cuáles de los siguientes usas regularmente? (Especifica todos los que apliquen)</span>
+          <p>Computer/laptop <span class="c5">Computadora/Laptop</span>
+            <br>Phone applications     <span class="c5"> Aplicaciones móviles</span>
+            <br>Microsoft office or similar software      <span class="c5">  Microsoft office o software similar</span>
+            <br>Google docs     <span class="c5">Google docs</span>
+            <br>None      <span class="c5">  Ninguno</span>
+            <br>Other (please specify) <span class="c5"> Otro (especifica por favor)</span>
+          <hr>
+          <p><span class="c7">*4. Which of these language have you programmed with before? (Please check all that apply) </span><span class="c7 c5"> ¿Cuáles de los siguientes lenguajes de programación has usado antes? (Marca todos los que apliquen)</span>
+          <p>Javascript <br> Python  <br>    C++<br> HTML  <br>  App Inventor  <br>  Swift  <br> None   <span class="c5"> Ninguno</span> <br> Other (please specify)  <span class="c5">Otro (Por favor especifica)</span>
+          <hr>
+          <p><span class="c7">*5. Have you participated in the Technovation Challenge before? If so, which year(s)? (Please check all that apply)  </span><span class="c7 c5">   ¿Has participado antes en Technovation Challenge? (Marca todos los años por favor)</span>
+          <p>No. This is my first year. <span class="c5">  No. Es mi primer año.</span>
+          <hr>
+          <p><span class="c7">*6. Please indicate your feelings about each statement. </span><span class="c7 c5"> Por favor indicia cómo te sientes acerca de cada frase.</span>
+          <table>
+            <tr>
+              <td>Strongly Disagree</td>
+              <td>Disagree</td>
+              <td>Not Sure</td>
+              <td>Agree</td>
+              <td>Strongly Agree</td>
+            </tr>
+            <tr class="c5">
+              <td>No estoy de acuerda para nada</td>
+              <td>No estoy de acuerdo</td>
+              <td>No estoy segura</td>
+              <td>De acuerdo</td>
+              <td>Totalmente de acuerdo</td>
+            </tr>
+          </table>
+          <div class="tan">
+            <p><span class="tan">I am a hard worker.
+              <span class="c5">Trabajo duro.</span>
+          </div>
+          <p>I know what computer scientists/engineers do.
+            <span class="c5">Sé que hacen los ingenieros en sistemas.
+          <div class="tan">
+            <p><span class="tan">I am diligent (hard working and careful) in my work.
+              <span class="c5">Soy perseverante en mi trabajo (trabajo duro y con cuidado)</span></span>
+          </div>
+          <p>I know how technology products are marketed.
+            <span class="c5">Sé cómo son comercializados los productos tecnológicos.</span>
+          <div class="tan">
+            <p><span class="tan">I often set a goal but later choose to follow a different one.
+              <span class="c5">Frecuentemente elijo una meta pero después la cambio por una distinta.</span></span>
+          </div>
+          <p>I know about user interface design.
+            <span class="c5">Sé sobre diseño de interfaces de usuario.</span>
+          <div class="tan">
+            <p><span class="tan">I know how to write computer programs.
+              <span class="c5">Sé cómo escribir programas de computadora.</span></span>
+          </div>
+          <p> I know about the design process that computer engineers use to create products.
+            <span class="c5">Sé acerca del proceso de diseño que ingenieros en sistemas usan para crear productos.</span>
+          <div class="tan">
+            <p><span class="tan">Setbacks and obstacles don't discourage me.
+              <span class="c5">Los contratiempos u obstáculos no me desalientan.</span></span>
+          </div>
+          <p>I finish whatever I begin.
+            <span class="c5">Concluyo todo lo que empiezo.</span>
+          <div class="tan">
+            <p><span class="tan">I am interested in helping to choose a technology company to visit.
+              <span class="c5">Estoy interesada en apoyar en la selección de una empresa de tecnología a visitar.</span></span>
+          </div>
+          <p>I am confident using technology.
+            <span class="c5">Me siento cómoda usando tecnología</span>
+          <div class="tan">
+            <p><span class="tan">I am comfortable making presentations about my school projects.
+              <span class="c5">Me siento cómoda haciendo presentaciones sobre mis proyectos escolares</span></span>
+          </div>
+          <p>I am taking or plan to take advanced classes in math or science.
+            <span class="c5">Estoy tomado o voy a tomar clases avanzadas de matemática o ciencia.</span>
+          <div class="tan">
+            <p><span class="tan">I know what a business plan is.
+              <span class="c5">Yo sé que es un plan de negocio.</span></span>
+          </div>
+          <p>I am interested in starting my own technology company.
+            <span class="c5">Me gustaría empezar mi propia empresa de tecnología.</span>
+          <div class="tan">
+            <p><span class="tan">I would like to choose a problem to solve with technology
+              <span class="c5">Me gustaría escoger un problema para resolver con tecnología</span></span>
+          </div>
+          <p>I am considering a career in technology.
+            <span class="c5">Estoy considerando una carrera en tecnología.</span>
+          <hr>
+          <p><span class="c7">*7. What kind of job/career do you want to have when you are older?
+            </span><span class="c7 c5">¿Qué tipo de trabajo/carrera te gustaría tener cuando crezcas?</span>
+          <p>Technologist  <span class="c5">  Tecnólogo</span>
+            <br>Business person   <span class="c5">  Empresario</span>
+            <br>Writer <span class="c5">  Escritor</span>
+            <br>Scientist  <span class="c5">   Científico</span>
+            <br>Artist <span class="c5">  Artista</span>
+            <br>Engineer  <span class="c5">   Ingeniero</span>
+            <br>Entrepreneur  <span class="c5">   Emprendedor</span>
+            <br>Don’t know <span class="c5">  No sé</span>
+            <br>Other (please specify) <span class="c5">  Otro (especifica por favor)</span>
+          <hr>
+          <p><span class="c7">*8. What are you planning to study at university?  </span><span class="c7 c5"> ¿Qué planeas estudiar en la universidad?</span>
+          <p>Arts  <span class="c5">   Arte</span>
+            <br>Science <span class="c5"> Ciencia</span>
+            <br>Business  <span class="c5">   Negocios</span>
+            <br>Communications <span class="c5">  Comunicaciones</span>
+            <br>Computer and Information Sciences <span class="c5">   Ingeniería en sistemas computacionales</span>
+            <br>Engineering <span class="c5"> Ingenieria</span>
+            <br>Entrepreneurship  <span class="c5">   Emprendimiento</span>
+            <br>Languages and Literature  <span class="c5">   Idiomas y literatura</span>
+            <br>Law <span class="c5"> Derecho</span>
+            <br>Mathematics and Statistics   <span class="c5">    Matemáticas y Estadística</span>
+            <br>Philosophy and Religion <span class="c5"> Filosofía y Religión</span>
+            <br>Psychology and Counseling    <span class="c5">    Psicología y Consejería</span>
+            <br>Social Sciences and Liberal Arts <span class="c5">    Ciencias Sociales y Artes Liberales</span>
+            <br>Don’t know <span class="c5">  No sé</span>
+            <br>Don't plan to go to university <span class="c5">  No planeo estudiar universidad</span>
+            <br>Other (please specify) <span class="c5">  Otro (especifica por favor).</span>
+          <hr>
+          <p><span class="c7">*9. What are you looking forward to learning during Technovation? </span><span class="c7 c5">  ¿Qué esperas aprender durante el programa de Technovation?</span>
+          <hr>
+          <p><span class="c7">*10. How did you hear about Technovation? (Please check all that apply) </span><span class="c7 c5"> ¿Cómo te enteraste de Technovation? (Marca todo lo que aplique)</span>
+          <p>Presentation at school, community center, or museum <span class="c5">  En una sesión informativa</span>
+            <br>Teacher<span class="c5">  Maestro</span>
+            <br>Counselor <span class="c5">   Consejero</span>
+            <br>Friend   <span class="c5">    Amigo</span>
+            <br>Parent   <span class="c5">    Padre de familia</span>
+            <br>Someone who participated previously<span class="c5">  Alguien que participó antes</span>
+            <br>Facebook
+            <br>CodeGirl documentary   <span class="c5">   El documental CodeGirl</span>
+            <br>Internet search <span class="c5"> Búsqueda en Internet</span>
+            <br>Other (please specify) <span class="c5">  Otro ( especifica por favor)</span>
+          <hr>
+          <p><span class="c7">*11. Please tell us which best describes you. (Please check all that apply) </span><span class="c7 c5"> Por favor indica qué es lo que mejor te describe (Por favor selecciona todos los que apliquen)</span>
+          <p>American Indian/Alaska Native  <span class="c5">      Grupo Indígena</span>
+            <br>African American/Black <span class="c5">  Afroamericano</span>
+            <br>Asian     <span class="c5">   Asiático</span>
+            <br>Hispanic/Latina  <span class="c5">    Hispáno/ Latino</span>
+            <br>Native Hawaiian/Other Pacific Islander  <span class="c5">  Nativo de Hawaii  u otras islas en Océano Pacífico</span>
+            <br>White      <span class="c5">  Blanco</span>
+            <br>I choose not to indicate  <span class="c5">   Prefiero no indicar</span>
+            <br>Other (please specify)    <span class="c5">   Otro (especifica por favor)</span>
+          <p><span class="c7">12. If you are able to be contacted for further questions, please provide an email where we can reach you.</span><span class="c7 c5">     Si podemos contactarte con más preguntas déjanos un correo</span>
+          <hr>
+          <p>
+          <center><span class="c7">Done </span><span class="c7 c5">  Listo</span></center>
+        </div>
+      </div>
 
-<hr>
-<p><span class="c7">*7. What kind of job/career do you want to have when you are older?
-</span><span class="c7 c5">¿Qué tipo de trabajo/carrera te gustaría tener cuando crezcas?</span>
+    </div><!--android-more-section END -->
 
-<p>Technologist  <span class="c5">  Tecnólogo</span>
-<br>Business person   <span class="c5">  Empresario</span>
-<br>Writer <span class="c5">  Escritor</span>
-<br>Scientist  <span class="c5">   Científico</span>
-<br>Artist <span class="c5">  Artista</span>
-<br>Engineer  <span class="c5">   Ingeniero</span>
-<br>Entrepreneur  <span class="c5">   Emprendedor</span>
-<br>Don’t know <span class="c5">  No sé</span>
-<br>Other (please specify) <span class="c5">  Otro (especifica por favor)</span>
-<hr>
-<p><span class="c7">*8. What are you planning to study at university?  </span><span class="c7 c5"> ¿Qué planeas estudiar en la universidad?</span>
-<p>Arts  <span class="c5">   Arte</span>
-<br>Science <span class="c5"> Ciencia</span>
-<br>Business  <span class="c5">   Negocios</span>
-<br>Communications <span class="c5">  Comunicaciones</span>
-<br>Computer and Information Sciences <span class="c5">   Ingeniería en sistemas computacionales</span>
-<br>Engineering <span class="c5"> Ingenieria</span>
-<br>Entrepreneurship  <span class="c5">   Emprendimiento</span>
-<br>Languages and Literature  <span class="c5">   Idiomas y literatura</span>
-<br>Law <span class="c5"> Derecho</span>
-<br>Mathematics and Statistics   <span class="c5">    Matemáticas y Estadística</span>
-<br>Philosophy and Religion <span class="c5"> Filosofía y Religión</span>
-<br>Psychology and Counseling    <span class="c5">    Psicología y Consejería</span>
-<br>Social Sciences and Liberal Arts <span class="c5">    Ciencias Sociales y Artes Liberales</span>
-<br>Don’t know <span class="c5">  No sé</span>
-<br>Don't plan to go to university <span class="c5">  No planeo estudiar universidad</span>
-<br>Other (please specify) <span class="c5">  Otro (especifica por favor).</span>
-<hr>
-<p><span class="c7">*9. What are you looking forward to learning during Technovation? </span><span class="c7 c5">  ¿Qué esperas aprender durante el programa de Technovation?</span>
-<hr>
-<p><span class="c7">*10. How did you hear about Technovation? (Please check all that apply) </span><span class="c7 c5"> ¿Cómo te enteraste de Technovation? (Marca todo lo que aplique)</span>
-<p>Presentation at school, community center, or museum <span class="c5">  En una sesión informativa</span>
-<br>Teacher<span class="c5">  Maestro</span>
-<br>Counselor <span class="c5">   Consejero</span>
-<br>Friend   <span class="c5">    Amigo</span>
-<br>Parent   <span class="c5">    Padre de familia</span>
-<br>Someone who participated previously<span class="c5">  Alguien que participó antes</span>
-<br>Facebook
-<br>CodeGirl documentary   <span class="c5">   El documental CodeGirl</span>
-<br>Internet search <span class="c5"> Búsqueda en Internet</span>
-<br>Other (please specify) <span class="c5">  Otro ( especifica por favor)</span>
-<hr>
-<p><span class="c7">*11. Please tell us which best describes you. (Please check all that apply) </span><span class="c7 c5"> Por favor indica qué es lo que mejor te describe (Por favor selecciona todos los que apliquen)</span>
-<p>American Indian/Alaska Native  <span class="c5">      Grupo Indígena</span>
-<br>African American/Black <span class="c5">  Afroamericano</span>
-<br>Asian     <span class="c5">   Asiático</span>
-<br>Hispanic/Latina  <span class="c5">    Hispáno/ Latino</span>
-<br>Native Hawaiian/Other Pacific Islander  <span class="c5">  Nativo de Hawaii  u otras islas en Océano Pacífico</span>
-<br>White      <span class="c5">  Blanco</span>
-<br>I choose not to indicate  <span class="c5">   Prefiero no indicar</span>
-<br>Other (please specify)    <span class="c5">   Otro (especifica por favor)</span>
-
-<p><span class="c7">12. If you are able to be contacted for further questions, please provide an email where we can reach you.</span><span class="c7 c5">     Si podemos contactarte con más preguntas déjanos un correo</span>
-    <hr>
-<p><center><span class="c7">Done </span><span class="c7 c5">  Listo</span></center>
-</div>
-
-
-
-
-    </div>
-    </body>
+    <script src="material.min.js"></script>
+  </body>
 </html>
-
-<!DOCTYPE html>

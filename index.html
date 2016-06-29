@@ -1,10 +1,11 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta property="og:title" content="Technovation Challenge M&eacute;xico" />
-  	<meta property="og:site_name" content="Technovation Challenge M&eacute;xico"/>
-  	<meta property="og:url" content="http://www.technovationmx.org" />
-  	<meta property="og:description" content="Competencia global en tecnolog&iacute;a y emprendimiento para chicas" />
+<!DOCTYPE html> <!--use HTML 5 syntax-->
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta property="og:title" content="Technovation Challenge M&eacute;xico" />
+    <meta property="og:site_name" content="Technovation Challenge M&eacute;xico"/>
+    <meta property="og:url" content="http://www.technovationmx.org" />
+    <meta property="og:description" content="Competencia global en tecnolog&iacute;a y emprendimiento para chicas" />
     <meta property="article:author" content="https://www.facebook.com/TechnovationChallengeMexico" />
     <meta property="article:publisher" content="https://www.facebook.com/TechnovationChallengeMexico" />
     <meta property="og:image" content="http://technovationmx.org/images/voluntarios.jpg" />
@@ -23,7 +24,8 @@
     <!--Font awesome -->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
-    <style>
+   <style type="text/css">
+
       .technovation-logo-image {
         width: 140px;
       }
@@ -74,15 +76,27 @@
   	    height: 133px;
   	    /*background: url('images/logo-oracle.png') center / cover;*/
   	  }
-        .intel {
+      .oracle2 {
+        display: inline-block;
+        width: 400px;
+        height: 133px;
+        background: url('images/logo-oracle.png')  no-repeat center;
+      }
+      .intel {
           display:table-cell;
           vertical-align: middle;
           text-align: center;
           padding: 10px;
-    	    width: 298px;
-    	    height: 133px;
-    	    /*background: url('images/logo-intel.png') center / cover;*/
-    	  }
+          width: 298px;
+          height: 133px;
+          /*background: url('images/logo-intel.png') center / cover;*/
+        }
+        .intel2 {
+          display: inline-block;
+          width: 400px;
+          height: 133px;
+          background: url('images/logo-intel.png')  no-repeat center;
+        }
         .biblioteca{
           display:table-cell;
           vertical-align: middle;
@@ -91,12 +105,36 @@
           height: 100px;
 
         }
+        .biblioteca2 {
+          display: inline-block;
+          width: 400px;
+          height: 133px;
+          background: url('images/logo-biblioteca.png')  no-repeat center;
+        }
+        .uad {
+          display: inline-block;
+          width: 400px;
+          height: 133px;
+          background: url('images/rsz_2rsz_logo-uad.png')  no-repeat center;
+        }
+        .campus {
+          display: inline-block;
+          width: 400px;
+          height: 133px;
+          background: url('images/rsz_logo-campus.png')  no-repeat center;
+        }
         .ITESM{
           display:table-cell;
           vertical-align: middle;
           text-align: center;
           width: 298px;
           height: 100px;
+        }
+        .ITESM2{
+          display: inline-block;
+          width: 400px;
+          height: 133px;
+          background: url('images/rsz_2rsz_itesm2.png')  no-repeat center;
         }
         .ASFG{
           display:table-cell;
@@ -105,30 +143,98 @@
           width: 150px;
           height: 150px;
         }
-	      .informador {
-        display: inline-block;
-  	    width: 500px;
-  	    height: 133px;
-  	    background: url('images/logo-informador.png')  no-repeat center;
-  	  }
-	      .reporter {
-        display: inline-block;
-  	    width: 500px;
-  	    height: 133px;
-  	    background: url('images/logo-guadalajarareprter.png')  no-repeat center;
-  	  }
-         .mural {
+        .ASFG2{
           display: inline-block;
-          width: 500px;
+          width: 400px;
           height: 133px;
-          background: url('images/logo-Mural.png')  no-repeat center;
+          background: url('images/logo-asfg.png')  no-repeat center;
         }
-           .wsj {
+	    .informador {
+        display: inline-block;
+  	    width: 400px;
+  	    height: 133px;
+  	    background: url('images/rsz_logo-informador.png')  no-repeat center;
+  	  }
+	    .reporter {
+        display: inline-block;
+  	    width: 400px;
+  	    height: 133px;
+  	    background: url('images/rsz_logo-guadalajarareprter.png')  no-repeat center;
+  	  }
+     .mural {
+      display: inline-block;
+      width: 400px;
+      height: 133px;
+      background: url('images/rsz_1logo-mural.png')  no-repeat center;
+      }
+       .wsj {
+      display: inline-block;
+      width: 400px;
+      height: 133px;
+      background: url('images/rsz_logo-wsj.png')  no-repeat center;
+      }
+       .conacyt {
+      display: inline-block;
+      width: 400px;
+      height: 133px;
+      background: url('images/rsz_conacyt.png')  no-repeat center;
+      }
+      .diario {
+      display: inline-block;
+      width: 400px;
+      height: 133px;
+      background: url('images/rsz_logo-diario.png')  no-repeat center;
+      }
+      .puntual {
+      display: inline-block;
+      width: 400px;
+      height: 133px;
+      background: url('images/rsz_puntual.jpg')  no-repeat center;
+      }
+
+      /*  New logos */        
+      .base22 {
           display: inline-block;
-          width: 500px;
+          width: 400px;
           height: 133px;
-          background: url('images/logo-WSJ.png')  no-repeat center;
-        }
+          background: url('images/rsz_logo_base22.png')  no-repeat center;
+      }
+      .epicentro {
+          display: inline-block;
+          width: 400px;
+          height: 133px;
+          background: url('images/rsz_logo_epicentro.png')  no-repeat center;
+      }
+      .kids_coding {
+          display: inline-block;
+          width: 400px;
+          height: 133px;
+          background: url('images/rsz_logo_kids_coding.png')  no-repeat center;
+      }
+      .playful {
+          display: inline-block;
+          width: 400px;
+          height: 133px;
+          background: url('images/rsz_logo_playful.png')  no-repeat center;
+      }
+      .unica {
+          display: inline-block;
+          width: 400px;
+          height: 133px;
+          background: url('images/rsz_logo_unica.png')  no-repeat center;
+      }
+      .meetroopers {
+          display: inline-block;
+          width: 400px;
+          height: 133px;
+          background: url('images/rsz_logo-meetroopers.png')  no-repeat center;
+      }
+      .npx {
+          display: inline-block;
+          width: 400px;
+          height: 133px;
+          background: url('images/NXP_logo.png')  no-repeat center;
+      }
 
     	  .demo-card-image > .mdl-card__actions {
     	    height: 52px;
@@ -144,26 +250,45 @@
     		  position: relative;
     		}
 
-          .android-customized-section-text {
-    		   max-width: 1200px;
-    		  margin-left: auto;
-    		  margin-right: auto;
-    		  padding: 40px 16px 40px 16px;
-    		}
-    		      .background-grey {
-    		  background-color: #EEEEEE;
-    		  margin-top: 20px;
-    		}
-        .bottom{
-          position: absolute;
-          bottom: 0;
-          z-align:100;
-          width:80%;
+      .android-customized-section-text {
+           max-width: 1200px;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 40px 16px 40px 16px;
         }
-    </style>
-  </head>
-  <body>
+              .background-grey {
+          background-color: #EEEEEE;
+          margin-top: 20px;
+        }
+    .bottom{
+      position: absolute;
+      bottom: 0;
+      z-align:100;
+      width:80%;
+    }
+        .main{
+            margin:0 auto;
+            max-width: 600px;
+            width:100%;
+            font-family: Arial;
+            }
+        h1{font-size:2.5em;}
+        h2{font-size:2em;}
+        h3{font-size:1.5em;}
+        .lgray{background-color: lightgray;
+            padding:20px;}
+        .s1{background-color: white;
+            padding:20px;}
+        .higlight{background-color: yellow;
+                font-weight: bold;}
+        .c3{color:#0000ff}.c0{color:#333333;font-weight:bold}.c10{color:#555555}.c14{color:#0000ff}.c8{color:#737373;}.c2{color:#333333;}.c5{color:#0000ff; }.c15{color:#0000ff}.c7{font-weight:bold}.lb{color:#337ab7;}.sp1{line-height: 1.5em;}.ppl{color:magenta;}.tan{background-color:#f7f2e8;}.bt{font-weight: bold;color:white;background-color: blue; padding:2px;}
+
+        </style>
+    </head>
+    <body>
+
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- HEADER  -->
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row header-row">
           <span class="android-title mdl-layout-title">
@@ -175,10 +300,8 @@
           <!-- Navigation -->
           <div class="android-navigation-container">
             <nav class="android-navigation mdl-navigation">
-              <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Participantes</a> -->
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="recursos.html">Curriculum</a>
-              <!--<a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Acerca</a>-->
-              <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Contacto</a> -->
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="reglas.html">Reglas</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://www.facebook.com/TechnovationChallengeMexico" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://twitter.com/Technovation_MX" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://plus.google.com/+TechnovationChallengeMX/posts" target="_blank"><i class="fa fa-google-plus fa-fw"></i></a>
@@ -191,13 +314,11 @@
             <a href="http://technovationmx.org/"><img class="technovation-logo-image" src="images/logo.png"></a>
           </span>
         </div>
-      </div>
+      </div>    
       <div class="android-drawer mdl-layout__drawer">
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Participantes</a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Curriculum</a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Acerca</a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Contacto</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="recursos.html">Curriculum</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="reglas.html">Reglas</a>
           <div class="android-drawer-separator"></div>
           <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://www.facebook.com/TechnovationChallengeMexico" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
           <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://twitter.com/Technovation_MX" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
@@ -207,65 +328,49 @@
               </a>
         </nav>
       </div>
+      <!-- HEADER  END -->
       <div class="android-content mdl-layout__content">
         <a name="top"></a>
+        <!-- BIG PICTURE-->
         <div class="android-wear-section background-grey">
           <div class="mdl-card__supporting-text android-card-container">
             <div class="bottom mdl-card__contrast-text mdl-typography--display-1 mdl-typography--font-regular mdl-typography--text-uppercase">
               Competencia global en tecnolog&iacute;as y emprendimiento para chicas
-<!--
               <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--2-col-phone" style="text-align:left;">
-                <div>
-                  <a target="_blank"  href="http://www.technovationchallenge.org/2015-results/" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color--accent-blue mdl-color-text--accent-contrast mdl-shadow--2dp">
-                    Equipo Finalista de M&eacute;xico
-                  </a>
-                </div>
-              </div>
--->
-<div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--2-col-phone" style="text-align:left;">
                 <div>
                   <a target="_blank"  href="GuiaRegistro.html" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color--accent-blue mdl-color-text--accent-contrast mdl-shadow--2dp">
                     Registrarse para Technovation 2016
                   </a>
                 </div>
               </div>
-
-
             </div>
-
-
-
-
-
-
-
-
-
-
-
           </div>
         </div>
+        <!-- BIG PICTURE END -->
+        <!-- NEWSLETTER  END -->
         <div class="newsletter">
             <div class="android-card-container mdl-grid">
               <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--2-col-phone" style="text-align:right;">
                 <div class="mdl-card__supporting-text ">
                   <div class="mdl-card__contrast-text mdl-typography--headline mdl-typography--font-thin">
-                    Inscribete a participar en un <b>Hack Day</b>!
+                    Conoce las <b>reglas</b> de la competencia!
                   </div>
                 </div>
               </div>
 
               <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--2-col-phone" style="text-align:left;">
                 <div class="mdl-card__supporting-text ">
-                  <a href="registration.html" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color--accent-blue mdl-color-text--accent-contrast mdl-shadow--2dp">
-                    Registrarse
+                  <a href="reglas.html" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color--accent-blue mdl-color-text--accent-contrast mdl-shadow--2dp">
+                    Reglas
             			</a>
                 </div>
               </div>
             </div>
         </div>
+      <!-- NEWSLETTER END -->
+
 <div class="android-more-section">
-          <div class="android-section-title mdl-typography--font-light mdl-typography--display-1-color-contrast mdl-typography--text-uppercase">Acerca de Technovation Mexico</div>
+          <div class="android-section-title mdl-typography--font-light mdl-typography--display-1-color-contrast mdl-typography--text-uppercase">Acerca de Technovation M&eacute;xico</div>
 
 
         <div class="tech-video" >
@@ -274,29 +379,101 @@
 
     </div>
 
-
-
-
-   <div class="android-more-section">
-          <div class="android-section-title mdl-typography--font-light mdl-typography--display-1-color-contrast mdl-typography--text-uppercase">Patrocinadores de Technovation en M&eacute;xico</div>
-          <div class="android-card-container mdl-grid">
-
-              <div class="sponsors1">
-                <div class="oracle">
-                  <img src="images/logo-oracle.png">
+        <!-- Sponsors Section -->
+        <div class="android-customized-section">
+          <div class="android-customized-section-text">
+            <div class="android-section-title mdl-typography--font-light mdl-typography--display-1-color-contrast mdl-typography--text-uppercase">Patrocinadores de Technovation en M&eacute;xico</div>
+              <div class="android-card-container mdl-grid">
+                <!-- Oracle -->
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a href="http://www.oracle.com/"><div class="oracle2"></div></a>
+                  </div>
                 </div>
-                <div class="intel">
-                  <img src="images/logo-intel.png">
+                <!-- Intel -->               
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                      <div class="mdl-card__media demo-card-image">
+                        <a href="http://www.intel.la/"><div class="intel2"> </div></a>
+                      </div>
                 </div>
-              </div>
-              <div class="sponsors2">
-                <div class="ITESM"><img src="images/logo-ITESM.png"></div>
-                <div class="ASFG"><img src="images/logo-asfg.png"></div>
-                <div class="biblioteca"><img src="images/logo-biblioteca.png"></div>
+                <!-- ITESM -->   
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a href="http://www.itesm.mx/"><div class="ITESM2"></div></a>
+                  </div>
+                </div>
+                <!-- bIBLIOTECA  -->   
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a href="http://www.bpej.udg.mx/"><div class="biblioteca2"></div></a>
+                  </div>
+                </div>
+                <!-- UAD  -->   
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a href="http://uartesdigitales.edu.mx/"><div class="uad"></div>
+                  </div>
+                </div>
+                <!-- Campus  -->   
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a href="http://mexico.campus-party.org/"><div class="campus"></div></a>
+                  </div>
+                </div>
+
+                <!-- Base22  -->   
+               <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a href="http://base22.com/"><div class="base22"></div></a>
+                  </div>
+                </div>
+
+                <!-- Epicentro  -->  
+               <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a href="http://www.epicentrofestival.com/"><div class="epicentro"></div></a>
+                  </div>
+                </div>
+
+                <!-- Meetroopers  -->   
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a href="http://meetroopers.com/"><div class="meetroopers"></div></a>
+                  </div>
+                </div>
+
+                <!-- Playful --> 
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a href="http://www.playfulinteractive.com/"><div class="playful"></div></a>
+                  </div>
+                </div>  
+                <!-- Kids coding  -->
+               <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a href="http://kidscoding.com.mx/"><div class="kids_coding"></div></a>
+                  </div>
+                </div>
+
+                <!-- Unica  -->   
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a href="http://www.unica.edu.mx/"><div class="unica"></div></a>
+                  </div>
+                </div>
+                <!-- NPX  -->   
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a href="http://www.nxp.com/"><div class="npx"></div></a>
+                  </div>
+                </div>
 
               </div>
-          </div>
+           </div>
         </div>
+
+
+
         <div class="android-more-section">
           <div class="android-section-title mdl-typography--font-light mdl-typography--display-1-color-contrast mdl-typography--text-uppercase">Chicas lideres en tecnolog&iacute;a empresarial</div>
           <div class="android-card-container mdl-grid">
@@ -395,26 +572,41 @@
           <div class="android-customized-section-text">
             <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Art&iacute;culos</div>
                 <div class="android-card-container mdl-grid">
-		            <div class="mdl-shadow--1dp mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+		            <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--2-col-phone">
 		              <div class="mdl-card__media demo-card-image">
 		                <a target="_blank" href="http://www.informador.com.mx/suplementos/2014/522404/6/adolescentes-innovan-con-aplicaciones-para-dispositivos-moviles.htm"><div class="informador"></div></a>
 		              </div>
-		    		</div>
-    				<div class="mdl-shadow--1dp mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+		    		    </div>
+    				    <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--2-col-phone">
 		              <div class="mdl-card__media demo-card-image">
 		                <a target="_blank" href="http://www.theguadalajarareporter.com/news/news/guadalajara/43859-empowering-girls-to-become-tech-creators"><div class="reporter"> </div></a>
 		              </div>
-    				</div>
-                    <div class="mdl-shadow--1dp mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                      <div class="mdl-card__media demo-card-image">
-                        <a target="_blank" href="http://www.wsj.com/articles/girls-who-code-from-around-globe-1435275208"><div class="wsj"></div></a>
-                      </div>
-                    </div>
-                    <div class="mdl-shadow--1dp mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                      <div class="mdl-card__media demo-card-image">
-                        <a target="_blank" href="http://www.mural.com/"><div class="mural"></div></a>
-                      </div>
-                    </div>
+    				    </div>
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a target="_blank" href="http://www.wsj.com/articles/girls-who-code-from-around-globe-1435275208"><div class="wsj"></div></a>
+                  </div>
+                </div>
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a target="_blank" href="http://www.mural.com/"><div class="mural"></div></a>
+                  </div>
+                </div>
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a target="_blank" href="http://www.conacytprensa.mx/index.php/sociedad/asociaciones/5299-mas-mujeres-incursionan-en-tecnologia-technovation-challenge"><div class="conacyt"></div></a>
+                  </div>
+                </div>
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a target="_blank" href="https://issuu.com/ntrguadalajara.com/docs/2015-11-27/22"><div class="diario"></div></a>
+                  </div>
+                </div>
+                <div class="mdl-shadow--1dp mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet mdl-cell--2-col-phone">
+                  <div class="mdl-card__media demo-card-image">
+                    <a target="_blank" href="http://www.diariopuntual.com/tecnolog%C3%AD/2016/02/11/13346"><div class="puntual"></div></a>
+                  </div>
+                </div>
           		</div>
            </div>
         </div>
